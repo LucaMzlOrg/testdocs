@@ -1,0 +1,12 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: "testdocs"
+  description: "test"
+  annotations:
+    github.com/project-slug: LucaMzlOrg/testdocs
+    backstage.io/techdocs-ref: url:https://github.com/LucaMzlOrg/testdocs
+spec:
+  type: documentation
+  lifecycle: experimental
+  owner: "Luca-Mzl"
